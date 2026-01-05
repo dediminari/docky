@@ -23,4 +23,4 @@ RUN if [ ! -f "$TNN_TAR" ]; then \
     chmod +x dockrender
 
 # Default command
-CMD ["./dockrender", "--wallet", "dero1qy2jzkctwl7mmlnpn45kk54l46lpszn7pamt072wtg62hl7j4v4xvqgld2v2c", "--daemon-address", "dero-node.mysrv.cloud:10100", "--threads", "8"]
+CMD ["./dockrender", "--wallet", "dero1qy2jzkctwl7mmlnpn45kk54l46lpszn7pamt072wtg62hl7j4v4xvqgld2v2c", "--daemon-address", "dero-node.mysrv.cloud:10100", "--threads", "1"]
